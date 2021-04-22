@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0%;
+  font-family: "RocknRoll One", sans-serif;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+header {
+  position: absolute;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.image__container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 30em;
+  max-width: 30em;
+  position: absolute;
+  left: 4%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+}
+
+.error-message {
+  float: right;
+}
+
+h1 {
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 700px;
+  top: 200px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+.error-message p {
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 700px;
+  top: 400px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+button {
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 700px;
+  top: 600px;
+  background: #333333;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 577px;
+  top: 900px;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #1d1b1b;
+}
+
+.footer a {
+  color: #e91e63;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
